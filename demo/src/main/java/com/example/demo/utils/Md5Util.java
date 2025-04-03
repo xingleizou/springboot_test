@@ -1,4 +1,4 @@
-package com.itheima.bigeventadmin.utils;
+package com.example.demo.utils;
 
 
 import java.security.MessageDigest;

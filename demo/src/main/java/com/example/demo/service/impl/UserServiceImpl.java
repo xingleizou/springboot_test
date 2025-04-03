@@ -9,9 +9,10 @@ import org.springframework.stereotype.Service;
 
 
 @Service
-public class UserServicelmpl implements UserService {
+public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
+
     @Override
     public User findByUserName(String username) {
         User u =userMapper.findByUserName(username);
